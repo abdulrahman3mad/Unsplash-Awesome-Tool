@@ -1,0 +1,50 @@
+
+body{
+  background-color:#334756
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  margin:0;
+  padding:0;
+  color:whitesmoke;
+}
+
+span{
+  margin:5px
+}
+span::after{
+  content: "'";
+}
+
+span::before{
+  content: "'";
+}
+
+input{
+  display:block;
+  padding:5px;
+  border-radius: 5px;
+  border:1px grey solid;
+  outline: none;
+}
+
+button{
+  background-color:green;
+  padding:5px 15px;
+  border-radius: 5px;
+  color:white;
+  border:none;
+  margin:15px 5px;
+  cursor: pointer;
+}
+
+img{
+  border:3px solid black;
+  max-width:100%       
+}
